@@ -18,15 +18,24 @@ header {
 }
 
 .menu-icon {
-    display: none;
+    visibility: hidden;
 }
 
 .logo {
     width: 20%;
 }
 
+.navigation-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    visibility: visible;
+}
+
 .first-nav {
-    width: 40%;
+   width: 60%;
 }
 
 .first-nav ul {
@@ -147,22 +156,49 @@ main {
     }
 
     .menu-icon {
-        display: inline;
-        width: 80px;
+        visibility: visible;
+        cursor: pointer;      
     }
 
     .logo {
         width: 60%;
     }
+   
+    .navigation-div {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+        background-color: #B8B8D2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100vh;
+        padding: 20px;
+        visibility: hidden;         
+    }
 
-    .first-nav {
-        display: none;
+    .closing-icon {        
+        cursor: pointer;        
+    }
+
+    .first-nav ul {
+        flex-direction: column;
+        align-items: flex-start;    
+    }
+
+    .first-nav li {
+        border-bottom: solid #5A5F97 1px;        
+        width: 100%;
+        padding: 10px;
+        width: 100%;        
     }
 
     .second-nav {
-        display: none;
+        flex-direction: column;
     }
-
+ 
     main {
         flex-direction:column-reverse;
     }
