@@ -10,6 +10,7 @@ This project is about the design and coding of a Responsive Landing Page for a f
 It's purpose is helping women to feel more secure and confident with their image, and also to optimize their time and money when buying a piece of clothing.
 
 Check this out:
+https://brunameloo.github.io/BorcelleFashionResponsiveLandingPage/
 
 ## Habilities and Technologies Explored and Applied
 
