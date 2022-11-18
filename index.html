@@ -14,7 +14,9 @@
         <link rel="icon" href="img/fav-icon.png"/>
 
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">   
+        <link rel="stylesheet" href="style.css">
+
+        <script src="./script.js"></script>
 
     </head>
 
@@ -22,23 +24,29 @@
 
         <header class="header">
 
-            <img src="img/menu-icon.png" alt="Menu Icon" class="menu-icon">
+            <img src="img/menu-icon.png" alt="Menu Icon" class="menu-icon" width="80px" onClick="ManageDropDownMenu()">
 
             <img src="img/borcelle-logo.png" alt="Borcelle Logo" class="logo">
 
-            <nav class="first-nav">
-                <ul>
-                    <li><a href="#">How it works?</a></li>
-                    <li><a href="#">Payment</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </nav>
+            <div class="navigation-div">
 
-            <nav class="second-nav">
-               <button class="sign-up-button">Sign Up</button>
-               <button class="log-in-button">Log In</button>
-            </nav>
+                <img src="img/close-icon.png" alt="Closing Icon" class="closing-icon" width="30px" onClick="ManageDropDownMenu()">
+
+                <nav class="first-nav">
+                    <ul>
+                        <li><a href="#">How it works?</a></li>
+                        <li><a href="#">Payment</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+    
+                <nav class="second-nav">
+                   <button class="sign-up-button">Sign Up</button>
+                   <button class="log-in-button">Log In</button>
+                </nav>
+
+            </div>        
             
         </header>
 
